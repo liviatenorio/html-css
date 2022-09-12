@@ -1,0 +1,10 @@
+@charset "UTF-8";
+body{
+    background-color: darkkhaki;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1{
+    color: chocolate;
+    font-size: x-large;
+    background-color: rgb(210, 30, 69);
+}

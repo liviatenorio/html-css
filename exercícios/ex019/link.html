@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudoelementos</title>
+    <style>
+    a:visited{
+        color: rgb(253, 21, 21);
+    }
+    a:active{
+        color: black;
+        background-color: aliceblue;
+    }
+
+    .especial::after{
+        content: ' ›';
+        text-decoration: none;
+        color: #000;
+    }
+    .especial:hover{
+        color:rgb(71, 165, 42)
+    }
+    </style>
+</head>
+<body>
+    <h1>Links personalizados</h1>
+    <ul>
+        <a href="https://www.facebook.com/chealy.dc" target="_blank">
+            <li>insta
+        </a>
+    </li>
+       <li><a href="https://www.facebook.com/chealy.dc" target="_blank" class="especial">facebook</a>
+    </li>
+        <a href="https://www.facebook.com/chealy.dc" target="_blank">
+            <li>youtube
+        </a>
+    </li>
+    </ul>
+</body>
+</html>
