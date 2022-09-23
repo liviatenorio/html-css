@@ -6,25 +6,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Astronauta</title>
     <style>
-        body {
-            background: blue url('imagens/espaco.jpg') center center no-repeat fixed;
-            background-size: cover;
-            position: relative;
-            height: 100%;
-        }
+      body {
+        background-image: url('imagens/espaco.jpg');
+        position: relative;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;  
+
+      }
+      
+      #dentro img {
+      
+        position: absolute;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center center;
+        left: 50%;
+        top: 30%;
+        transform: translate(-50%, 40%);
+
+      }
         
-        img {
-            background-size: 100% 100%;
-            position: absolute;
-            left: 50%;
-            top: 50%;
-            background-position: center center;
-            background-attachment: fixed;
-            transform: translate(-50%, 43%);
-        }
     </style>
 </head>
 <body>
-        <img src="imagens/astronauta.png" alt="astronauta">
-</body>
+            <div id="dentro">
+                <img src="imagens/astronauta.png" alt="">
+            </div>
+        
+    </body>
 </html>
